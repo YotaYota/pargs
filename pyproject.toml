@@ -19,16 +19,15 @@ classifiers = [
 license = {text = "Apache-2.0"}
 dynamic = ["version"]
 
-[project.scripts]
-pargs = "pargs.cli.cli:main_cli"
-
 [project.urls]
 Repository = "https://example.com"
 
+[project.scripts]
+pargs = "bin.pargs:main_cli"
+
 [tool.setuptools]
-package-dir = {"" = "src"}
-include-package-data = false
+package-dir = {"" = "src", "bin" = "bin"}
+include-package-data = true
 
 [tool.setuptools.dynamic]
 version = {attr = "pargs.__version__"}
-#readme = {file = ["README.md"]}
