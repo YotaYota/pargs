@@ -3,3 +3,18 @@ build
 dist
 **/*.egg-info
 **/*.pyc
+
+# Debian
+debian/*
+!debian/pargs-*/
+debian/pargs-*/*
+!debian/pargs-*/debian
+debian/pargs-*/debian/*
+!debian/pargs-*/debian/control
+!debian/pargs-*/debian/control
+!debian/pargs-*/debian/changelog
+!debian/pargs-*/debian/files
+!debian/pargs-*/debian/rules
+!debian/pargs-*/debian/copyright
+!debian/pargs-*/debian/watch
+!debian/pargs-*/debian/source/format

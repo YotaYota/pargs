@@ -1,6 +1,7 @@
 import argparse
 
 from pargs import __version__
+from pargs.util.foo_helper import return_foo
 
 
 def create_parser():
@@ -16,9 +17,12 @@ def create_parser():
 def handle_args(args):
     if args.foo:
         print(f"Foo was called with {args.foo}")
+        print(f"foo-helper returns {return_foo()}")
 
 
-def main_cli(*args, **kwargs):
+def cli(*args, **kwargs):
+    print(*args)
+    print(**kwargs)
     parser = create_parser()
     args = parser.parse_args()
     handle_args(args)

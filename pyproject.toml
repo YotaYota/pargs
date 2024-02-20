@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pargs"
 authors = [
-    {name = "Johannes Jeppsson"},
+    {name = "Hari Seldon"},
 ]
 description = "Python Args Playground"
 readme = "README.md"
 requires-python = ">=3.10"
-keywords = ["argsparse"]
+keywords = ["python3"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
@@ -19,14 +19,11 @@ classifiers = [
 license = {text = "Apache-2.0"}
 dynamic = ["version"]
 
-[project.urls]
-Repository = "https://example.com"
-
 [project.scripts]
-pargs = "bin.pargs:main_cli"
+pargs = "pargs.cli.pargs:cli"
 
 [tool.setuptools]
-package-dir = {"" = "src", "bin" = "bin"}
+package-dir = {"" = "src"}
 include-package-data = true
 
 [tool.setuptools.dynamic]
