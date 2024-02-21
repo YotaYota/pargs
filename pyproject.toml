@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=69.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -11,12 +11,12 @@ description = "Python Args Playground"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["python3"]
+license = {text = "Apache-2.0"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
 ]
-license = {text = "Apache-2.0"}
 dynamic = ["version"]
 
 [project.scripts]
@@ -24,7 +24,7 @@ pargs = "pargs.cli.pargs:cli"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-include-package-data = true
+include-package-data = false
 
 [tool.setuptools.dynamic]
 version = {attr = "pargs.__version__"}

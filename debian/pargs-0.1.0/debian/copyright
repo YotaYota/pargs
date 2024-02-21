@@ -5,9 +5,11 @@ Source: <url://example.com>
 #
 # Please double check copyright with the licensecheck(1) command.
 
-Files:     PKG-INFO
+Files:     .gitignore
+           PKG-INFO
            README.md
            pyproject.toml
+           requirements.txt
            setup.cfg
            src/pargs.egg-info/PKG-INFO
            src/pargs.egg-info/SOURCES.txt

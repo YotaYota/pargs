@@ -1,12 +1,16 @@
 Source: pargs
 Section: python
 Priority: optional
-Maintainer: <>
-Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Maintainer: x y <x.y@z.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
 Standards-Version: 4.5.0
-X-Python3-Version: >= 3.10
+X-Python3-Version: >= 3.2
 
-Package: pargs
+Package: python3-pargs
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${python3:Depends}
