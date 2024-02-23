@@ -1,0 +1,29 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pargs
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           PKG-INFO
+           README.md
+           pyproject.toml
+           requirements.txt
+           setup.cfg
+           src/pargs.egg-info/PKG-INFO
+           src/pargs.egg-info/SOURCES.txt
+           src/pargs.egg-info/dependency_links.txt
+           src/pargs.egg-info/entry_points.txt
+           src/pargs.egg-info/top_level.txt
+           src/pargs/__init__.py
+           src/pargs/cli/__init__.py
+           src/pargs/cli/pargs.py
+           src/pargs/util/__init__.py
+           src/pargs/util/foo_helper.py
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
