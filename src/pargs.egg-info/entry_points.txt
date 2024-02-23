@@ -1,0 +1,2 @@
+[console_scripts]
+pargs = pargs.cli.pargs:cli
