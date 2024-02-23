@@ -1,7 +1,7 @@
 Source: pargs
 Section: python
 Priority: optional
-Maintainer: x y <x.y@z.org>
+Maintainer: Hari Seldon <hari.seldon@protonmail.com>
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
