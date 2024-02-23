@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# You must remove unused comment lines for the released package.
+#export DH_VERBOSE = 1
+export PYBUILD_NAME = pargs
+export PYBUILD_INTERPRETERS = python3.11
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild 

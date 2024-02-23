@@ -1,0 +1,17 @@
+Source: pargs
+Section: python
+Priority: optional
+Maintainer: Hari Seldon <hari.seldon@protonmail.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               pybuild-plugin-pyproject
+Standards-Version: 4.5.0
+X-Python3-Version: >= 3.10
+
+Package: python3-pargs
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Dummy cli pargs. Use with -V or -f flag.
