@@ -5,7 +5,7 @@ Testing argsparse
 ## Develop
 
 ```
-python3 -m venv .venv
+python3 -m venv ../.venv-pargs
 . .venv/bin/activate
 python3 -m pip install -e .
 ```
@@ -42,3 +42,14 @@ pdebuild
 ```
 
 Note: `debmake` is good for creating sensible template files.
+
+## Build with git-buildpackage
+
+```
+sudo apt install git-buildpackage
+```
+
+```
+git switch debian
+gbp buildpackage
+```

@@ -2,6 +2,7 @@
 README.md
 pyproject.toml
 requirements.txt
+setup.cfg
 debian/gbp.conf
 src/pargs/__init__.py
 src/pargs.egg-info/PKG-INFO
