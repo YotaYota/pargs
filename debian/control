@@ -1,7 +1,7 @@
 Source: pargs
 Section: python
 Priority: optional
-Maintainer: Hari Seldon <hari.seldon@protonmail.com>
+Maintainer: Hari Seldon <hari.seldon@foundation.org>
 Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all,
@@ -14,4 +14,4 @@ Package: python3-pargs
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${python3:Depends}
-Description: Dummy cli pargs. Use with -V or -f flag.
+Description: Dummy cli pargs
