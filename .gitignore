@@ -1,7 +1,7 @@
 .venv
-.pybuild
+.pybuild/
 build
 dist
 **/*.pyc
 **/*.egg-info
-src/pargs.egg-info
+src/pargs.egg-info/
