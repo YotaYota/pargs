@@ -1,4 +1,6 @@
-pargs (0.1.0-1) UNRELEASED; urgency=medium
+pargs (0.1.0-1~1.gbp1d4f10) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1d4f10e229a8a6f8f9f0edebbc92259a87d8f14e **
 
   [ Hari Seldon ]
   * Initial release.
@@ -11,5 +13,8 @@ pargs (0.1.0-1) UNRELEASED; urgency=medium
   * gitignore
   * ignore
   * ignore more
+  * no egg-info files
+  * ignore setup.cfg
+  * New upstream version 0.1.1
 
- -- johannes jeppsson <hari.seldon@foundation.org>  Mon, 04 Mar 2024 13:43:03 +0100
+ -- johannes jeppsson <hari.seldon@foundation.org>  Mon, 04 Mar 2024 14:13:56 +0100
