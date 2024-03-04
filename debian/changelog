@@ -1,5 +1,15 @@
-pargs (0.1.0-1) UNRELEASED; urgency=low
+pargs (0.1.0-1) UNRELEASED; urgency=medium
 
+  [ Hari Seldon ]
   * Initial release.
 
- -- Hari Seldon <hari.seldon@outlook.com>  Tue, 20 Feb 2024 15:54:31 +0100
+  [ Johannes Jeppsson ]
+  * New upstream version 0.1.0
+  * rename conf
+  * New upstream version 0.1.0
+  * use git-buildpackage
+  * gitignore
+  * ignore
+  * ignore more
+
+ -- johannes jeppsson <hari.seldon@foundation.org>  Mon, 04 Mar 2024 13:43:03 +0100
